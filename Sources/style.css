@@ -227,7 +227,7 @@ a:hover{
     overflow-x: scroll;
     margin: 2rem 10px 2rem 10px !important;
     padding: 15px !important;
-    background-color: black;
+    /* background-color: black; */
     scrollbar-width: thin !important;
     display: flex; 
     scroll-behavior: smooth !important;
