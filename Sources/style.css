@@ -317,6 +317,7 @@ a:hover{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: center;
 }
 .carddiv{
     height: 450px;
@@ -334,6 +335,10 @@ a:hover{
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
     -o-border-radius: 2px;
+}
+.customofferlink{
+    font-size: 20px;
+    color: gray;
 }
 .carddiv:hover h1{
     font-size: 60px;
@@ -532,6 +537,69 @@ footer a{
 }
 
 
+/* postpagebody page setup */
+
+.postpagebody{
+    padding: 50px 200px 50px 200px !important;
+}
+.posthead p{
+    color: gray;
+}
+.postimage{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px !important;
+}
+.postimage img{
+    max-width: 30rem;
+    text-align: center !important;
+}
+.postbodyis{
+    margin-top: 30px !important;
+}
+.posthead{
+    padding: 20px !important;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.562);
+}
+
+
+/* Post list page  */
+
+
+.postcoverimage img{
+    height: 100px;
+    width: 130px;
+    margin: 8px !important;
+}
+.postbody{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px !important;
+}
+.titleandbody{
+    padding: 0px 30px 0px 30px !important;
+}
+.titleandbody .dateautor{
+    font-size: 14px;
+    padding: 0 !important;
+}
+.titleandbody h4 a{
+    color: white;
+}
+.titleandbody h4 a:hover{
+    color: rgb(195, 197, 195);
+}
+.titleandbody p{
+    color: rgb(150, 148, 148);
+    padding-top: 6px !important;
+    line-height: 1.2;
+}
+.titleandbody h4 a {
+    color: white;
+    text-decoration: none;
+}
 
 
 
@@ -605,6 +673,18 @@ footer a{
     form input, form textarea {
         width: 100%;
     }
+    .postpagebody {
+        padding: 50px 10px 50px 10px !important;
+    }
+    .postbody {
+        margin-bottom: 25px !important;
+    }
+    .titleandbody h4{
+        font-size: 18px;
+    }
+    .titleandbody p{
+        font-size: 14px;
+    }
 }
 
 
@@ -619,6 +699,12 @@ footer a{
     }
     .section6{
         padding-top: 100px !important;
+    }
+    .postbody {
+        display: block;
+    }
+    .titleandbody {
+        padding: 0px 10px 0px 10px !important;
     }
 
 
@@ -643,6 +729,15 @@ footer a{
     form input, form textarea {
         margin: 0px !important;
     }
+    .postcoverimage img {
+        height: 200px;
+        width: 95.5%;
+        margin: 8px !important;
+    }
+    .titleandbody {
+        padding: 0px 10px 0px 10px !important;
+    }
+
 }
 
 @media only screen and (min-width:200px) and (max-width:336px){
@@ -650,6 +745,7 @@ footer a{
     .introname h1 {
         font-size: 34px;
     }
+  
 }
 
 
