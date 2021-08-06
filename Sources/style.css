@@ -225,11 +225,11 @@ a:hover{
 .section5CoverDiv{
     overflow: hidden;
     overflow-x: scroll;
-    margin: 2rem 150px 2rem 150px !important;
+    margin: 2rem 10px 2rem 10px !important;
     padding: 15px !important;
     background-color: black;
     scrollbar-width: thin !important;
-    display: block ruby; 
+    display: flex; 
     scroll-behavior: smooth !important;
 }
 
