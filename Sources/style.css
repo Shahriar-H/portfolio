@@ -148,6 +148,8 @@ a:hover{
 .aboutme p{
     /* font-family: 'Satisfy', cursive !important; */
     font-size: 18px;
+    text-align: left !important;
+    line-height: 1.25 !important;
 }
 
 /* <!-- Third section start --> */
