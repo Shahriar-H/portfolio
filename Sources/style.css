@@ -1,7 +1,7 @@
 *{
     font-family: 'Bree Serif', serif !important;
     box-sizing: border-box;
-    padding: 0 !important;
+    padding: 0;
     margin: 0 !important;
 }
 html{
@@ -12,10 +12,41 @@ html{
 body{
     font-family: 'Bree Serif', serif !important;
     color: white !important;
-    background-color: rgb(29, 29, 29);
+    background-color: #0a0f17;
     overflow-x: hidden;
     overflow-y: scroll;
     scrollbar-width: thin !important;
+}
+.hedeingUnder{
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px !important;
+}
+.hedeingUnder .dot{
+    background-color: rgb(5, 204, 5);
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    margin: 5px !important;
+
+}
+.lineStraight{
+    background-color: rgb(5, 204, 5);
+    height: 3px;
+    width: 200px;
+    border-radius:3px ;
+    -webkit-border-radius:3px ;
+    -moz-border-radius:3px ;
+    -ms-border-radius:3px ;
+    -o-border-radius:3px ;
+}
+.titleMainDiv{
+    padding: 10px 150px 0px 150px !important;
+    
 }
 /* <!-- First section start --> */
 .section1{
@@ -100,10 +131,58 @@ a:hover{
     -ms-transform: rotate(180deg);
     -o-transform: rotate(180deg);
     z-index: 0 !important;
-  
+}
+.vectorSide{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.listOfexperiace{
+    width: 50%;
+}
+.experiancesContainer{
+    display: flex;
+    justify-content: center;
+}
+.experiance{
+    background-color: #152031;
+    padding: 30px 20px;
+    display: flex;
+    width: 80%;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    position: relative;
+}
+.exp1::before{
+    content: '';
+    height: 3px;
+    width: 100px;
+    background-color: rgb(3, 194, 3);
+    position: absolute;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    left: -8px;
+    bottom: 0;
+}
+.informationExp{
+    padding-left: 10px;
 }
 
-
+.iconD i{
+    padding: 10px 13px;
+    border-radius: 100%;
+    background-color: rgb(5, 178, 5);
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
 
 
 
@@ -118,8 +197,8 @@ a:hover{
     padding: 100px  0px 200px 0px !important;
 }
 .headtag{
-    font-family: 'Satisfy', cursive !important;
-    color: white !important;
+    /* font-family: 'Satisfy', cursive !important; */
+    color: rgb(255, 255, 255) !important;
     margin-bottom: 10px !important;
 }
 
@@ -160,10 +239,8 @@ a:hover{
     background-size: contain;
     background-attachment: fixed;
     background-position: center;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
 }
+
 .skillsbox img{
     height: 100px;
     width: 100px;
@@ -171,6 +248,7 @@ a:hover{
     padding: 20px !important;
     box-shadow: 0px 0px 4px 0px rgba(182, 180, 180, 0.644);
     margin: 10px !important;
+    
 }
 .skillsbox img:hover{
     background-color: rgb(0, 0, 0);
@@ -179,6 +257,11 @@ a:hover{
     -moz-transition: 0.4s;
     -ms-transition: 0.4s;
     -o-transition: 0.4s;
+}
+.section3 .skillsis{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 /* <!-- Forth section start --> */
@@ -211,195 +294,96 @@ a:hover{
     width: 100%;
     overflow: hidden;
     position: relative;
-    background-color: white;
-    padding-top: 20px !important;
+    background-color: rgba(0, 0, 0, 0);
     background-attachment: fixed;
-}
-.section5::before{
-    content: '';
-    height: 20px;
-    width: 100%;
-    background-color: white;
-    position: absolute;
-    bottom: 30px;
-    z-index: 99999999999999;
-}
-.section5CoverDiv{
-    overflow: hidden;
-    overflow-x: scroll;
-    margin: 2rem 10px 2rem 10px !important;
-    padding: 15px !important;
-    /* background-color: black; */
-    scrollbar-width: thin !important;
-    display: flex; 
-    scroll-behavior: smooth !important;
+    padding-bottom: 100px !important;
 }
 
-.portfoliobox{
-    margin: 8px !important;
-    height: 280px;
-    width: 250px;
-    overflow: hidden;
-    box-shadow: 0px 0px 4px 0px rgba(128, 128, 128, 0.877);
+.cardDiv{
+    background-color: #141c28;
+    padding: 40px 20px 20px 20px;
+    width: 95%;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    box-shadow:0px 10px 35px 0px rgba(58, 58, 58, 0.181) ;
+    border-top: 2px solid rgb(3, 206, 70);
     position: relative;
-
-}
-.portfoliobox:hover img{
-    height: 300px;
-    width: 280px;
-    transition: 0.4s;
-    -webkit-transition: 0.4s;
-    -moz-transition: 0.4s;
-    -ms-transition: 0.4s;
-    -o-transition: 0.4s;
-}
-.portfoliobox img{
-    height: 280px;
-    width: 250px;
-    transition: 0.4s;
-    -webkit-transition: 0.4s;
-    -moz-transition: 0.4s;
-    -ms-transition: 0.4s;
-    -o-transition: 0.4s;
-}
-.portfoliobox p{
-    position: absolute;
-    background-color: rgb(4, 151, 4);
-    z-index: 9999;
-    bottom: -30px;
-    left: 0;
-    display: block;
-    width: 100%;
-    padding: 5px !important;
-    transition: 0.4s;
-    -webkit-transition: 0.4s;
-    -moz-transition: 0.4s;
-    -ms-transition: 0.4s;
-    -o-transition: 0.4s;
-}
-.portfoliobox:hover p{
-    bottom: 0;
-    transition: 0.4s;
-    -webkit-transition: 0.4s;
-    -moz-transition: 0.4s;
-    -ms-transition: 0.4s;
-    -o-transition: 0.4s;
-}
-.section5 button{
-    background-color: rgb(3, 167, 3);
-    border: none;
-    padding: 5px !important;
-    cursor: pointer;
-    position: absolute;
-    z-index: 999999;
-    top: 0;
-    bottom: 0;
-    height: 100px;
-    margin: auto !important;
-    cursor: pointer;
-}
-.section5 .btnleft{
-    bottom: 0;
-}
-.section5 .btnright{
-    right: 0;
-}
-
-
-/* <!-- Sixth section start --> */
-
-.section6{
-    padding: 4rem 150px 4rem 150px !important;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.74),rgba(0, 0, 0, 0.89)),url('../images//bgcard.gif');
-    background-attachment: fixed;
     overflow: hidden;
+    margin-bottom: 30px !important;
+    
 }
-.section6div{
-    padding-top: 0px !important;
+.Col2 .cardDiv .imgPr img{
+    max-width: 50%;
+}
+.cardDiv h3{
+    font-family: 'Satisfy', cursive !important;
+
+}
+.cardDiv .imgPr img{
+    max-width: 60%;
+    margin-left:220px !important;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+.cardDiv .imgPr{
+    display: flex;
+    
+}
+.ProjectLink{
+    background-color: rgb(0, 0, 0);
+    width: 150px;
+    height: fit-content;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 40px;
+    right: -200px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+.cardDiv:hover .imgPr img{
+    margin-left:0px !important;
+}
+.cardDiv:hover .ProjectLink{
+    right:0px;
+}
+.containerCard{
+    display: flex;
+    justify-content: space-between;
+}
+.Col1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32%;
+}
+.Col2{
+    width: 32%;
+    
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
 }
-.carddiv{
-    height: 450px;
-    padding: 30px !important;
-    width: 350px;
-    background-color: white;
-    color: black !important;
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
-    margin: 10px !important;
-    border-radius: 2px;
-    box-shadow: 0px 0px 4px 0px rgb(187, 212, 187);
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    -ms-border-radius: 2px;
-    -o-border-radius: 2px;
+.col2Holder .cardDiv{
+    margin: auto !important;
+    margin-bottom: 40px !important;
 }
-.customofferlink{
-    font-size: 20px;
-    color: gray;
+.Col2 .cardDiv .imgPr img{
+    max-width: 50%;
 }
-.carddiv:hover h1{
-    font-size: 60px;
-    transition:.4s;
-    -webkit-transition:.4s;
-    -moz-transition:.4s;
-    -ms-transition:.4s;
-    -o-transition:.4s;
-    -webkit-transition:.4s;
-    top: 0;
-    color: black;
-    left: 10px;
-}
-.carddiv:hover .cardbuton{
-    transition: 0.4s;
-    -webkit-transition: 0.4s;
-    -moz-transition: 0.4s;
-    -ms-transition: 0.4s;
-    -o-transition: 0.4s;
-    bottom: 0;
-}
-.carddiv h1{
-    position: absolute;
-    top: -30px;
-    font-size: 150px;
-    left: 0;
-    color: rgba(128, 128, 128, 0.452);
-    transition:0.4s ;
-    -webkit-transition:0.4s ;
-    -moz-transition:0.4s ;
-    -ms-transition:0.4s ;
-    -o-transition:0.4s ;
-}
-.features{
-    padding-top:7rem !important ;
-}
-.carddiv h2{
-    text-align: center !important;
-    margin-top: 30px !important;
-    font-size: 45px !important;
-}
-.carddiv h2 span{
-    font-size: 16px;
-}
-.cardbuton{
-    position: absolute;
-    bottom: -34px;
-    background-color: rgb(3, 167, 3);
-    width: 100%;
-    text-align: center;
-    padding: 7px !important;
-    left: 0;
-    color: black;
-    transition: 0.4s;
-    -webkit-transition: 0.4s;
-    -moz-transition: 0.4s;
-    -ms-transition: 0.4s;
-    -o-transition: 0.4s;
-}
+
 
 /* <!-- Sixth section start --> */
 
@@ -526,7 +510,7 @@ textarea{
 footer{
     width: 100%;
     height: 50%;
-    background-image:url(../images/footerbg.jpg);
+    background-image:url(../images/firstside.gif);
     background-attachment:fixed;
     background-size: cover;
     padding: 10px !important;
@@ -613,6 +597,30 @@ footer a{
 @media only screen and (min-width:200px) and (max-width:991px){
     .firstbgdiv{
         display: none;
+    }
+    .vectorSide {
+        width: 100%;
+        
+    }
+    .listOfexperiace {
+        width: 100%;
+    }
+    .experiancesContainer {
+        flex-wrap: wrap;
+    }
+    .experiance {
+        width: 95%;
+        margin: auto !important;
+    }
+    .titleMainDiv {
+        padding: 10px !important;
+        
+    }
+    .Col1, .Col2{
+        width: 100%;
+    }
+    .containerCard {
+        flex-wrap: wrap;
     }
     .introname{
         width: 100% !important;
