@@ -8,11 +8,12 @@
     <meta name="description" content="Shaki al Shahariar, Software Developer, Web Developer, Android Developer, PHP, React Native, React, Javascript, Frontend Developer, Backend Developer." />
     <link href="./images/shaki_al_Shahriar.jpg" rel="icon" />
     <title>Wellcome to Shahriars Kingdom</title>
-    <link rel="icon" type="image/x-icon" href="./images/fav.png">
+    <link rel="icon" type="image/x-icon" href="./images/vectorgif.gif">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Fontawsome cdn link  -->
@@ -28,13 +29,22 @@
 
     
 <body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home"><i class="bi bi-house"></i></a></li>
+            <li><a href="#skills"><i class="bi bi-tools"></i></a></li>
+            <li><a href="#experiance"><i class="bi bi-briefcase"></i></a></li>
+            <li><a href="#projects"><i class="bi bi-cast"></i></a></li>
+            <li><a href="mailto:shakihusain4@gmail.com"><i class="bi bi-envelope"></i></a></li>
+        </ul>
+    </nav>
     <div class="overflowiddenbody" style="overflow-x: hidden;">
     <!-- first section start  -->
-    <div class="section1">
+    <div class="section1" id="home">
         <div class="introname">
             <h1 data-aos="zoom-in">Shahariar Hussain</h1>
             <p><span>Web Developer</span> | <span>Android Developer</span> | <span>Programmer</span></p>
-            <p class="aboutme">I am currently working with web & android development. PHP & Javascript is my faveroite programming language. React & React Native is my strength. </p>
+            <p class="aboutme">I specialize in both web and Android development, with a strong proficiency in PHP and JavaScript, which are my preferred programming languages. My expertise lies particularly in React and React Native, where I leverage my skills to build robust and scalable applications.</p>
             <div data-aos="fade-up" class="buttondiv">
                 <a href="https://drive.google.com/file/d/1zGGTaamDsZC0jZIMKSLY_H9MScLO8rJW/view?usp=sharing">Download Resume</a>
             </div>
@@ -51,7 +61,7 @@
 
      <!-- Second About section start -->
 
-     <div class="section2">
+     <div class="section2" id="About">
          <div class="aboutme">
             <h2 data-aos="slide-right" class="headtag">About Me</h2>
             <div class="hedeingUnder">
@@ -59,11 +69,12 @@
                 <div class="dot" style="margin-right: 10px;"></div>
                 <div class="lineStraight"></div>
             </div>
-            <p data-aos="fade-up">Shahriar Hussain, a software developer. He started his journey in the software field in 2019. 
-                Currently, He is working at a software firm as a part-time software developer. 
-                E-commerce Application, School management Application, Chatting Application and many more interesting projects  
-                he delivered to his respective clients. He has a rich profile in Freelancing marketplaces too. <br><br>
-                Shahriar is a student from Dhaka, Bangladesh and like to introduce himself as a Student Programmer. Till now, He has handled almost 35+ projects. 
+            <p data-aos="fade-up">
+                Shahriar Hussain embarked on his journey in the software industry in 2019. He is currently contributing his expertise as a part-time software developer at a reputable software firm. Throughout his career, Shahriar has successfully delivered a diverse range of projects, including E-commerce applications, school management systems, chatting applications, and many other innovative solutions for his clients. <br><br>
+
+                In addition to his role at the firm, Shahriar boasts a strong presence on various freelancing marketplaces, where he has built a rich and diverse portfolio. To date, he has managed and completed over 35 projects, demonstrating his capability and commitment to quality.<br><br>
+
+                Shahriar is also a dedicated student from Dhaka, Bangladesh, who takes pride in identifying himself as a Student Programmer.
             </p>
             <!--              
             <div class="buttondiv">
@@ -77,7 +88,7 @@
 
      <!-- Third tecnology section start -->
      
-     <div class="section3">
+     <div class="section3" id="skills">
         <div class="">
             <h2 data-aos="slide-right" class="headtag">Skills</h2>
             <div class="hedeingUnder">
@@ -135,12 +146,21 @@
         <div class="skillsbox">
             <img src="./images/skills/express-js.png" alt="html">
         </div>
+        <div class="skillsbox">
+            <img src="./images/skills/mongo.png" alt="html">
+        </div>
+        <div class="skillsbox">
+            <img src="./images/skills/webrtc.png" alt="html">
+        </div>
+        <div class="skillsbox">
+            <img src="./images/skills/socket.png" alt="html">
+        </div>
     </div>
     <!-- Fourth Clients Review tecnology section start -->
      </div>
      
 <br><br>
-    <section>
+    <section id="experiance">
         <br>
         <div data-aos="slide-right" class="titleMainDiv"">
             <h2 class="headtag">Experiences</h2>
@@ -196,7 +216,7 @@
 
 
     <!-- Fifth Portfolio section start -->
-    <div>
+    <div id="projects">
         <br>
         <div class="titleMainDiv" data-aos="slide-right">
             <h2 class="headtag">Projects</h2>
@@ -213,13 +233,16 @@
                         <h3>Dhopaelo</h3><br>
                         <p>A Online Laundry service based in Dhaka, Bangladesh. I was the developer of the core team of Dhopaelo. We build web applications, Android and ios app for Dhopaelo.</p>
                         <div class="imgPr">
-                            <img src="./images/projects/laundry.png" alt="">
-                            <div class="ProjectLink">
+                            
+                            <div class="" style="text-align: right;width: 100%;">
                                 <a href="https://dhopaelo.com">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="white" class="bi bi-link" viewBox="0 0 16 16">
-                                        <path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
-                                        <path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
-                                    </svg>
+                                    <i class="bi bi-globe"></i>
+                                </a>
+                                <a href="https://play.google.com/store/apps/details?id=com.dhopaelo.dhopaelo">
+                                    <i class="bi bi-google-play"></i>
+                                </a>
+                                <a href="https://apps.apple.com/in/app/dhopaelo/id6468069920">
+                                    <i class="bi bi-apple"></i>
                                 </a>
                             </div>
                         </div>
@@ -231,13 +254,10 @@
                             <h3>Test Driving</h3><br>
                             <p>Test driving a web application for managing, hiring and finding a driving tutor in Australia.</p>
                             <div class="imgPr">
-                                <img src="./images/projects/project (1).png" alt="">
-                                <div class="ProjectLink">
+                               
+                                <div class="" style="text-align: right;width: 100%;">
                                     <a href="http://drivingtestpro.com.au/">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="white" class="bi bi-link" viewBox="0 0 16 16">
-                                            <path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
-                                            <path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
-                                        </svg>
+                                        <i class="bi bi-globe"></i>
                                     </a>
                                 </div>
                             </div>
@@ -246,13 +266,16 @@
                             <h3>i1Class</h3><br>
                             <p> An edTech app(ios & Android) for Bangladeshi students and learners, offering various skills training and courses.</p>
                             <div class="imgPr">
-                                <img src="./images/projects/project (2).png" alt="">
-                                <div class="ProjectLink">
+                               
+                                <div class="" style="text-align: right;width: 100%;">
+                                    <a href="https://i1class.com">
+                                        <i class="bi bi-globe"></i>
+                                    </a>
                                     <a href="https://play.google.com/store/apps/details?id=com.i1class.app&pcampaignid=web_share">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="white" class="bi bi-link" viewBox="0 0 16 16">
-                                            <path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
-                                            <path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
-                                        </svg>
+                                        <i class="bi bi-google-play"></i>
+                                    </a>
+                                    <a href="https://apps.apple.com/in/app/i1class/id6450207967">
+                                        <i class="bi bi-apple"></i>
                                     </a>
                                 </div>
                             </div>
@@ -264,21 +287,30 @@
                         <h3>Micro Job App</h3><br>
                         <p>Zas71 a micro-job platform for Bangladeshi users, Users can complete a task for earning money.</p>
                         <div class="imgPr">
-                            <img style="max-width:100% ;" src="./images/projects/project (3).png" alt="">
-                            <div class="ProjectLink">
+                            <div class="" style="text-align: right;width: 100%;">
                                 <a href="https://zas71.com/">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="white" class="bi bi-link" viewBox="0 0 16 16">
-                                        <path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
-                                        <path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
-                                    </svg>
+                                    <i class="bi bi-globe"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <div class="moreProjectContainer">
+                <div class="moreProjectdiv">
+                    <a href="https://hfe-db1-git-dev-25-shahriars-projects-7f1dba03.vercel.app/"><p><i class="bi bi-globe"></i> HFF Project for US Client</p></a>
+                </div>
+                <div class="moreProjectdiv">
+                    <a href="https://spiffy-strudel-83dd17.netlify.app/"><p><i class="bi bi-globe"></i> MBB E-commerce Project for US Client</p></a>
+                </div>
+                <div class="moreProjectdiv">
+                    <a href="https://play.google.com/store/apps/details?id=com.poribar"><p><i class="bi bi-google-play"></i> PORIBAR- Android App</p></a>
+                </div>
+            </div>
         </div>
         <br><br>
+        
     </div>
 
 
@@ -327,6 +359,10 @@
         <a href="" class="text-right"><i class="bi bi-file-code">By Shahriar</i></a>
 
     </footer>
+    <br>
+    <br>
+    <br>
+   
     </div>
 
 <!-- Messenger Chat Plugin Code -->
